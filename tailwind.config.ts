@@ -13,6 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      dropShadow: {
+        'custom-md': '5px 5px 0px #000000',
+      },
+      backgroundColor: {
+        'custom-yellow': 'var(--custom-yellow)'
+      }
     },
   },
   plugins: [],
