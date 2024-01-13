@@ -12,8 +12,10 @@ export function Card() {
         alt="img-pic"
         className="rounded-xl"
       />
-      <h2 className="text-sm px-3 py-1 rounded-md w-fit bg-custom-yellow">Learning</h2>
-      <h6 className="text-sm text-neutral-600">Published 21 Dec 2023</h6>
+      <hgroup>
+        <h1 className="text-sm px-3 py-1 rounded-md w-fit bg-custom-yellow">Learning</h1>
+        <h6 className="text-sm text-neutral-600">Published 21 Dec 2023</h6>
+      </hgroup>
       <h1 className="text-lg text-black font-bold">HTML & CSS Fondation</h1>
       <p className="text-neutral-600 text-xs">These languages are the backbone of every website, defining structure, content, and presentation.</p>
       <User name="Greg Hooper"/>

@@ -15,7 +15,7 @@ export default function User(user: userType) {
         alt="user-pic"
         className="rounded-full"
       />
-      <h6 className="text-sm font-bold">{user.name}</h6>
+      <h1 className="text-sm font-bold">{user.name}</h1>
     </div>
   );
 }
